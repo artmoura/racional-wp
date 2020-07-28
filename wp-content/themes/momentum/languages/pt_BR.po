@@ -1,0 +1,454 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Momentum Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-07 13:41+0100\n"
+"PO-Revision-Date: 2012-12-10 16:01-0300\n"
+"Last-Translator: Camilo <camilo.oliveira@gmail.com>\n"
+"Language-Team: ThemesKingdom <info@themeskingdom.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: /Volumes/Storage/01_localhost/02_updates/wp-content/"
+"themes/\n"
+"Language: en\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: momentum\n"
+
+#: momentum/404.php:12
+msgid "404 - ERROR"
+msgstr ""
+
+#: momentum/404.php:19
+msgid ""
+"Looks like the page you were looking for does not exist. Sorry about that."
+msgstr ""
+
+#: momentum/404.php:20
+msgid "Check the web address for typos, or go to"
+msgstr ""
+
+#: momentum/404.php:20
+msgid "HOME PAGE"
+msgstr ""
+
+#: momentum/_blog.php:101 momentum/archive.php:85 momentum/index.php:55
+#: momentum/index.php:172 momentum/index2.php:55 momentum/index2.php:175
+#: momentum/search.php:80
+msgid "Read More"
+msgstr ""
+
+#: momentum/_contact.php:173
+msgid "Say Hello"
+msgstr ""
+
+#: momentum/_contact.php:179
+msgid "Name"
+msgstr ""
+
+#: momentum/_contact.php:184
+msgid "Email"
+msgstr ""
+
+#: momentum/_contact.php:194 momentum/comments.php:103
+msgid "Send"
+msgstr ""
+
+#: momentum/_projects.php:47
+msgid "Filter :"
+msgstr ""
+
+#: momentum/_projects.php:48
+msgid "All"
+msgstr ""
+
+#: momentum/comments.php:23
+msgid "- Your comment is awaiting moderation."
+msgstr ""
+
+#: momentum/comments.php:23
+msgid " - Edit - "
+msgstr ""
+
+#: momentum/comments.php:37
+msgid "No comments so far!"
+msgstr ""
+
+#: momentum/comments.php:39
+msgid "Comments"
+msgstr ""
+
+#: momentum/comments.php:53
+msgid "You must be"
+msgstr ""
+
+#: momentum/comments.php:53
+msgid "logged in"
+msgstr ""
+
+#: momentum/comments.php:53
+msgid "to post a comment."
+msgstr ""
+
+#: momentum/comments.php:90
+msgid "Leave a Comment"
+msgstr ""
+
+#: momentum/comments.php:95
+msgid "Name (required)"
+msgstr ""
+
+#: momentum/comments.php:96
+msgid "E-mail (required)"
+msgstr ""
+
+#: momentum/comments.php:115
+msgid "Comments are closed"
+msgstr ""
+
+#: momentum/functions.php:29
+msgid "Primary Menu"
+msgstr ""
+
+#: momentum/functions.php:73
+msgid "Video only allowes vimeo and youtube!"
+msgstr ""
+
+#: momentum/functions.php:159
+msgid "Views"
+msgstr ""
+
+#: momentum/functions.php:508
+msgid "less than a minute ago"
+msgstr ""
+
+#: momentum/functions.php:510
+msgid "about a minute ago"
+msgstr ""
+
+#: momentum/functions.php:512
+msgid "minutes ago"
+msgstr ""
+
+#: momentum/functions.php:514
+msgid "about an hour ago"
+msgstr ""
+
+#: momentum/functions.php:516
+msgid "hours ago"
+msgstr ""
+
+#: momentum/functions.php:518
+msgid "1 day ago"
+msgstr ""
+
+#: momentum/functions.php:520
+msgid "days ago"
+msgstr ""
+
+#: momentum/functions.php:547
+msgid "Home"
+msgstr "Início"
+
+#: momentum/functions.php:553
+msgid "You are here:"
+msgstr "Você está em:"
+
+#: momentum/functions.php:566
+msgid "Archive by category"
+msgstr ""
+
+#: momentum/functions.php:619
+msgid "Search results for"
+msgstr ""
+
+#: momentum/functions.php:622
+msgid "Posts tagged"
+msgstr ""
+
+#: momentum/functions.php:627
+msgid "Articles posted by"
+msgstr ""
+
+#: momentum/functions.php:630
+msgid "Error 404"
+msgstr ""
+
+#: momentum/functions.php:635
+msgid "Page"
+msgstr ""
+
+#: momentum/header.php:18
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: momentum/index.php:135 momentum/index2.php:125
+msgid "Latest News"
+msgstr ""
+
+#: momentum/index.php:137 momentum/index.php:190 momentum/index2.php:127
+#: momentum/index2.php:193
+msgid "View All"
+msgstr ""
+
+#: momentum/index.php:188 momentum/index2.php:191
+msgid "Latest Projects"
+msgstr ""
+
+#: momentum/search.php:10
+msgid "Search"
+msgstr ""
+
+#: momentum/search.php:12
+msgid "No posts found. Try a different search?"
+msgstr ""
+
+#: momentum/single-pt_projects.php:31 momentum/single.php:36
+msgid "Prev"
+msgstr ""
+
+#: momentum/single-pt_projects.php:32 momentum/single.php:37
+msgid "Next"
+msgstr ""
+
+#: momentum/single.php:22
+msgid "Featured"
+msgstr ""
+
+#: momentum/inc/custom-taxonomies.php:10
+msgid "Search Projects Categories"
+msgstr ""
+
+#: momentum/inc/custom-taxonomies.php:11
+msgid "All Projects Categories"
+msgstr ""
+
+#: momentum/inc/custom-taxonomies.php:12 momentum/inc/custom-taxonomies.php:13
+msgid "Parent Projects Category"
+msgstr ""
+
+#: momentum/inc/custom-taxonomies.php:14
+msgid "Edit Projects Category"
+msgstr ""
+
+#: momentum/inc/custom-taxonomies.php:15
+msgid "Update Projects Category"
+msgstr ""
+
+#: momentum/inc/custom-taxonomies.php:16
+msgid "Add New Projects Categories"
+msgstr ""
+
+#: momentum/inc/custom-taxonomies.php:17
+msgid "New Projects Category"
+msgstr ""
+
+#: momentum/inc/custom-taxonomies.php:18
+msgid "Projects Categories"
+msgstr ""
+
+#: momentum/inc/meta-boxes.php:10 momentum/inc/meta-boxes.php:17
+msgid "VIdeo Link"
+msgstr ""
+
+#: momentum/inc/meta-boxes.php:29
+msgid "Slider Fields"
+msgstr ""
+
+#: momentum/inc/post-types.php:12 momentum/inc/post-types.php:13
+#: momentum/inc/post-types.php:24
+msgid "Projects"
+msgstr ""
+
+#: momentum/inc/post-types.php:14 momentum/inc/post-types.php:54
+msgid "Add New"
+msgstr ""
+
+#: momentum/inc/post-types.php:15
+msgid "Add New Projects"
+msgstr ""
+
+#: momentum/inc/post-types.php:16
+msgid "Edit Projects"
+msgstr ""
+
+#: momentum/inc/post-types.php:17
+msgid "New Projects"
+msgstr ""
+
+#: momentum/inc/post-types.php:18
+msgid "All Projects"
+msgstr ""
+
+#: momentum/inc/post-types.php:19
+msgid "View this Project"
+msgstr ""
+
+#: momentum/inc/post-types.php:20
+msgid "Search Projects"
+msgstr ""
+
+#: momentum/inc/post-types.php:21
+msgid "No Projects"
+msgstr ""
+
+#: momentum/inc/post-types.php:22
+msgid "No Projects in Trash"
+msgstr ""
+
+#: momentum/inc/post-types.php:52 momentum/inc/post-types.php:53
+#: momentum/inc/post-types.php:64
+msgid "Slides"
+msgstr ""
+
+#: momentum/inc/post-types.php:55
+msgid "Add New Slide"
+msgstr ""
+
+#: momentum/inc/post-types.php:56
+msgid "Edit Slides"
+msgstr ""
+
+#: momentum/inc/post-types.php:57
+msgid "New Slides"
+msgstr ""
+
+#: momentum/inc/post-types.php:58
+msgid "All Slides"
+msgstr ""
+
+#: momentum/inc/post-types.php:59
+msgid "View this Slide"
+msgstr ""
+
+#: momentum/inc/post-types.php:60
+msgid "Search Slides"
+msgstr ""
+
+#: momentum/inc/post-types.php:61
+msgid "No Slides"
+msgstr ""
+
+#: momentum/inc/post-types.php:62
+msgid "No Slides in Trash"
+msgstr ""
+
+#: momentum/inc/shortcodes/popup.php:20
+msgid "Insert Shortcode"
+msgstr ""
+
+#: momentum/inc/shortcodes/settings.php:12
+msgid "Button URL"
+msgstr ""
+
+#: momentum/inc/shortcodes/settings.php:13
+msgid "Add the button's url eg http://example.com"
+msgstr ""
+
+#: momentum/inc/shortcodes/settings.php:17
+msgid "Button's Style"
+msgstr ""
+
+#: momentum/inc/shortcodes/settings.php:18
+msgid "Select the button's style, ie the buttons colour"
+msgstr ""
+
+#: momentum/inc/shortcodes/settings.php:33
+msgid "Button's Text"
+msgstr ""
+
+#: momentum/inc/shortcodes/settings.php:34
+msgid "Add the button's text"
+msgstr ""
+
+#: momentum/inc/shortcodes/settings.php:44
+msgid "Type of list"
+msgstr ""
+
+#: momentum/inc/shortcodes/settings.php:45
+msgid "Select the list type"
+msgstr ""
+
+#: momentum/inc/shortcodes/settings.php:57
+msgid "List Text"
+msgstr ""
+
+#: momentum/inc/shortcodes/settings.php:58
+msgid "Add the list text"
+msgstr ""
+
+#: momentum/inc/shortcodes/settings.php:68
+msgid "Column Type"
+msgstr ""
+
+#: momentum/inc/shortcodes/settings.php:69
+msgid "Select the type of the column."
+msgstr ""
+
+#: momentum/inc/shortcodes/settings.php:79
+msgid "Last Column"
+msgstr ""
+
+#: momentum/inc/shortcodes/settings.php:80
+msgid "Check this box if this column is last."
+msgstr ""
+
+#: momentum/inc/shortcodes/settings.php:89
+msgid "Column Content"
+msgstr ""
+
+#: momentum/inc/shortcodes/settings.php:90
+msgid "Add the column content."
+msgstr ""
+
+#: momentum/inc/widgets/widget-newsletter.php:10
+msgid " - Newsletter"
+msgstr ""
+
+#: momentum/inc/widgets/widget-newsletter.php:90
+#: momentum/inc/widgets/widget-share.php:130
+#: momentum/inc/widgets/widget-twitter.php:44
+msgid "Title:"
+msgstr ""
+
+#: momentum/inc/widgets/widget-newsletter.php:94
+msgid "Newsletter Text:"
+msgstr ""
+
+#: momentum/inc/widgets/widget-newsletter.php:98
+msgid "Chose Service:"
+msgstr ""
+
+#: momentum/inc/widgets/widget-newsletter.php:103
+msgid "MailChimp API Key:"
+msgstr ""
+
+#: momentum/inc/widgets/widget-newsletter.php:108
+msgid "MailChimp API List:"
+msgstr ""
+
+#: momentum/inc/widgets/widget-newsletter.php:113
+msgid "Sendloop Username:"
+msgstr ""
+
+#: momentum/inc/widgets/widget-newsletter.php:118
+msgid "Sendloop List ID:"
+msgstr ""
+
+#: momentum/inc/widgets/widget-share.php:9
+msgid " - Share"
+msgstr ""
+
+#: momentum/inc/widgets/widget-twitter.php:9
+msgid " - Twitter Stream"
+msgstr ""
+
+#: momentum/inc/widgets/widget-twitter.php:48
+msgid "Username:"
+msgstr ""
+
+#: momentum/inc/widgets/widget-twitter.php:52
+msgid "Number of tweets:"
+msgstr ""

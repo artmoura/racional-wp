@@ -1,0 +1,1053 @@
+# Translation of Plugins - BackUpWordPress - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - BackUpWordPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-09-04 15:50:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - BackUpWordPress - Stable (latest release)\n"
+
+#: functions/interface.php:217
+msgid "Your site&apos;s root path (%s) isn&apos;t readable. Please contact support."
+msgstr "O caminho raiz do seu site (%s) não é legível. Entre em contato com o suporte."
+
+#: functions/interface.php:183
+msgid "Your custom backups directory (%1$s) doesn&apos;t exist, your backups will be saved to %2$s instead."
+msgstr "Seu diretório personalizado de backups (%1$s) não existe, portanto seus backups serão salvos em %2$s."
+
+#. translators: 1: The `PHP` abbreviation.
+#: functions/interface.php:163
+msgid "%1$s is running in <a href=\"http://php.net/manual/en/features.safe-mode.php\">Safe Mode</a>, please contact your host and ask them to disable it. BackUpWordPress may not work correctly whilst <code>Safe Mode</code> is on."
+msgstr "%1$s está sendo executado no <a href=\"http://php.net/manual/en/features.safe-mode.php\">Modo de segurança</a>, entre em contato com seu provedor de hospedagem e peça para desativá-lo. O BackUpWordPress poderá não funcionar corretamente enquanto o <code>Modo de segurança</code> estiver ligado."
+
+#: admin/schedule-sentence.php:76
+msgid "Check the help tab to learn how to change where your backups are stored."
+msgstr "Verifique a aba de ajuda para aprender como alterar onde seus backups são armazenados."
+
+#: admin/extensions.php:187
+msgid "<strong>Last Updated:</strong> %s ago"
+msgstr "<strong>Última atualização:</strong> %s atrás"
+
+#: admin/extensions.php:150
+msgid "Buy Now &#36;%s"
+msgstr "Compre agora &#36;%s"
+
+#: admin/extensions.php:148
+msgid "Install %s now"
+msgstr "Instalar %s agora"
+
+#: admin/extensions.php:137
+msgid "Activate"
+msgstr "Ativar"
+
+#: admin/extensions.php:136
+msgid "Activate %s"
+msgstr "Ativar %s"
+
+#: admin/extensions.php:117
+msgctxt "Plugin status"
+msgid "Active"
+msgstr "Ativo"
+
+#: admin/extensions.php:106
+msgid "Update Now"
+msgstr "Atualizar agora"
+
+#: admin/extensions.php:104
+msgid "Update %s now"
+msgstr "Atualizar %s agora"
+
+#: admin/schedule-form-excludes.php:186 admin/schedule-form-excludes.php:316
+msgid "%1$s of %2$s"
+msgstr "%1$s de %2$s"
+
+#: admin/schedule-form-excludes.php:59
+msgid "Defined in %s"
+msgstr "Definido em %s"
+
+#: admin/schedule-form-excludes.php:15
+msgid "We automatically detect and ignore common Version Control Systems folders and other backup plugin folders."
+msgstr "Nós detectamos e ignoramos automaticamente as pastas comuns dos Sistemas de Controle de Versão e pastas de outros plugins de backup."
+
+#: functions/interface.php:245
+msgid "Your server only has %s of disk space left which probably isn&apos;t enough to complete a backup. Try deleting some existing backups or other files to free up space."
+msgstr "Seu servidor tem apenas %s de espaço em disco restante, que provavelmente não é suficiente para concluir um backup. Tente excluir alguns backups existentes ou outros arquivos para liberar espaço."
+
+#: admin/menu.php:17
+msgid "Extensions"
+msgstr "Extensões"
+
+#: admin/menu.php:12
+msgid "Manage Backups | BackUpWordPress"
+msgstr "Gerenciar backups | BackUpWordPress"
+
+#: admin/extensions.php:164
+msgid "More Details"
+msgstr "Mais Detalhes"
+
+#: admin/extensions.php:162
+msgid "More information about %s"
+msgstr "Mais informações sobre %s"
+
+#: admin/extensions.php:43
+msgid "It's important to store your backups somewhere other than on your site. Using the extensions below you can easily push your backups to one or more Cloud providers."
+msgstr "É importante armazenar seus backups num lugar diferente, além seu site. Usando as extensões abaixo você pode facilmente enviar seus backups para um ou mais provedores em Nuvem."
+
+#: admin/extensions.php:41
+msgid "Remote Storage"
+msgstr "Armazenamento remoto"
+
+#: admin/extensions.php:12
+msgid "Extend BackUpWordPress by installing extensions. Extensions allow you to pick and choose the exact features you need whilst also supporting us, the developers, so we can continue working on BackUpWordPress."
+msgstr "Estenda o BackUpWordPress instalando extensões. As extensões permitem que você escolha exatamente os recursos de que precisa, enquanto também nos apoia, os desenvolvedores, para que possamos continuar trabalhando no BackUpWordPress."
+
+#: admin/extensions.php:8 admin/menu.php:17
+msgid "BackUpWordPress Extensions"
+msgstr "Extensões do BackUpWordPress"
+
+#: admin/extensions.php:7
+msgid "&larr; Backups"
+msgstr "&larr; Backups"
+
+#: admin/actions.php:380
+msgid "Storing %s backups would use %s of disk space but your server only has %s free."
+msgstr "Armazenar %s backups usaria %s de espaço em disco, mas seu servidor tem apenas %s livre."
+
+#: admin/schedule-form-excludes.php:122
+msgid "Included Size"
+msgstr "Tamanho incluído"
+
+#. translators: FYI: specified MySQL features.
+#. translators: FYI: specified zip archiving features.
+#: functions/interface.php:226 functions/interface.php:236
+msgid "Your site cannot be backed up because your server doesn&apos;t support %1$s or %2$s. Please contact your host and ask them to enable them."
+msgstr "Você não pode fazer backups do seu site porque o seu servidor não suporta %1$s ou %2$s. Entre em contato com seu provedor de hospedagem e peça para ativá-los."
+
+#: functions/interface.php:174
+msgid "Your server has an %1$s restriction in effect and your custom backups directory (%2$s) is not within the allowed path(s): (%3$s)."
+msgstr "Seu servidor tem uma restrição %1$s ativa e o seu diretório personalizado de backups (%2$s) não está dentro dos caminhos permitidos: (%3$s)."
+
+#: classes/class-scheduled-backup.php:429
+#: classes/class-scheduled-backup.php:444
+msgid "Deleting old backups..."
+msgstr "Excluíndo backups antigos..."
+
+#: classes/class-scheduled-backup.php:427 functions/interface.php:320
+msgid "Starting backup..."
+msgstr "Iniciando o backup..."
+
+#: classes/backup/class-backup.php:111
+msgid "Backing up files..."
+msgstr "Fazendo o backup dos arquivos..."
+
+#: classes/backup/class-backup.php:57
+msgid "Backing up database..."
+msgstr "Fazendo o backup do banco de dados..."
+
+#: functions/interface.php:364
+msgid "Database Every Two Weeks"
+msgstr "Banco de dados, a cada duas semanas"
+
+#: functions/interface.php:363
+msgid "File Every Two Weeks"
+msgstr "Arquivos, a cada duas semanas"
+
+#: functions/interface.php:362
+msgid "Complete Every Two Weeks"
+msgstr "Completo, a cada duas semanas"
+
+#: admin/upsell.php:16 classes/class-plugin.php:456
+msgid "Dismiss this notice."
+msgstr "Dispensar este aviso."
+
+#: functions/core.php:351
+msgid "Once Every Two Weeks"
+msgstr "A cada duas semanas"
+
+#: admin/schedule-sentence.php:53
+msgid "every two weeks on %1$s at %2$s"
+msgstr "a cada duas semanas: %1$s às %2$s"
+
+#: admin/schedule-form.php:160
+msgid "24-hour format."
+msgstr "Formato 24 horas."
+
+#: admin/schedule-form-excludes.php:410
+msgid "This folder is empty"
+msgstr "Esta pasta está vazia"
+
+#: admin/schedule-form-excludes.php:83
+msgid "Your Site"
+msgstr "Seu site"
+
+#: admin/actions.php:688
+msgid "%1$s is returning a %2$s response which could mean cron jobs aren't getting fired properly. BackUpWordPress relies on wp-cron to run scheduled backups, and more generally relies on HTTP loopback connections not being blocked for manual backups. See the %3$s for more details."
+msgstr "%1$s está retornando uma resposta %2$s que pode significar que as tarefas cron não estão sendo disparadas corretamente. O BackUpWordPress depende do wp-cron para executar os backups agendados e também depende de que as conexões de HTTP loopback não sejam bloqueadas para backups manuais. Veja o %3$s para saber mais detalhes."
+
+#. Description of the plugin
+msgid "Simple automated backups of your WordPress powered website. Once activated you'll find me under <strong>Tools &rarr; Backups</strong>. On multisite, you'll find me under the Network Settings menu."
+msgstr "Simples backups automatizado do seu site Wordpress."
+
+#: functions/interface.php:370
+msgid "Database Manually"
+msgstr "Banco de dados, manualmente"
+
+#: functions/interface.php:369
+msgid "File Manually"
+msgstr "Arquivos, manualmente"
+
+#: functions/interface.php:368
+msgid "Complete Manually"
+msgstr "Completo, manualmente"
+
+#: functions/interface.php:367
+msgid "Database Monthly"
+msgstr "Banco de dados, mensalmente"
+
+#: functions/interface.php:366
+msgid "File Monthly"
+msgstr "Arquivos, mensalmente"
+
+#: functions/interface.php:365
+msgid "Complete Monthly"
+msgstr "Completo, mensalmente"
+
+#: functions/interface.php:361
+msgid "Database Weekly"
+msgstr "Banco de dados, semanalmente"
+
+#: functions/interface.php:360
+msgid "File Weekly"
+msgstr "Arquivos, semanalmente"
+
+#: functions/interface.php:359
+msgid "Complete Weekly"
+msgstr "Completo, semanalmente"
+
+#: functions/interface.php:358
+msgid "Database Daily"
+msgstr "Banco de dados, diariamente"
+
+#: functions/interface.php:357
+msgid "File Daily"
+msgstr "Arquivos, diariamente"
+
+#: functions/interface.php:356
+msgid "Complete Daily"
+msgstr "Completo, diariamente"
+
+#: functions/interface.php:355
+msgid "Database Twice Daily"
+msgstr "Banco de dados, duas vezes por dia"
+
+#: functions/interface.php:354
+msgid "File Twice Daily"
+msgstr "Arquivos, duas vezes por dia"
+
+#: functions/interface.php:353
+msgid "Complete Twice Daily"
+msgstr "Completo, duas vezes por dia"
+
+#: functions/interface.php:352
+msgid "Database Hourly"
+msgstr "Banco de dados, de hora em hora"
+
+#: functions/interface.php:351
+msgid "File Hourly"
+msgstr "Arquivos, de hora em hora"
+
+#: functions/interface.php:350
+msgid "Complete Hourly"
+msgstr "Concluído, de hora em hora"
+
+#: functions/interface.php:341
+msgctxt "backups count"
+msgid "One backup completed"
+msgid_plural "%1$s backups completed"
+msgstr[0] "Um backup concluído"
+msgstr[1] "%1$s backups concluídos"
+
+#: functions/interface.php:339
+msgid "No backups completed"
+msgstr "Nenhum backup concluído"
+
+#: functions/interface.php:321
+msgid "cancel"
+msgstr "cancelar"
+
+#: functions/interface.php:319
+msgid "Started %s ago"
+msgstr "Iniciado %s atrás"
+
+#: functions/interface.php:302
+msgid "Legacy"
+msgstr "Legado"
+
+#: functions/interface.php:295
+msgid "Database"
+msgstr "Banco de dados"
+
+#: functions/interface.php:291
+msgid "Files"
+msgstr "Arquivos"
+
+#: functions/interface.php:287
+msgid "Database and Files"
+msgstr "Banco de dados e arquivos"
+
+#: functions/interface.php:191
+msgid "Your custom backups directory (%1$s) isn&apos;t writable, new backups will be saved to %2$s instead."
+msgstr "Seu diretório personalizado de backups (%1$s) não é gravável, portanto os novos backups serão salvos em %2$s."
+
+#: functions/interface.php:86
+msgid "BackUpWordPress detected issues with your last backup."
+msgstr "O BackUpWordPress detectou problemas com o seu último backup."
+
+#: functions/interface.php:33
+msgid "Download"
+msgstr "Download"
+
+#: functions/core.php:371
+msgid "You can only delete directories inside your WordPress installation"
+msgstr "Você só pode deletar pastas dentro da sua instalação do Wordpress"
+
+#: functions/core.php:352
+msgid "Once Monthly"
+msgstr "Uma vez por mês"
+
+#: functions/core.php:350
+msgid "Once Weekly"
+msgstr "Uma vez por semana"
+
+#: functions/core.php:349
+msgid "Once Daily"
+msgstr "Uma vez por dia"
+
+#: functions/core.php:348
+msgid "Twice Daily"
+msgstr "Duas vezes por dia"
+
+#: functions/core.php:347
+msgid "Once Hourly"
+msgstr "Um vez a cada hora"
+
+#: functions/core.php:331
+msgid "By default BackUpWordPress performs a daily backup of your database and a weekly backup of your database &amp; files. You can modify these schedules."
+msgstr "Por padrão, o BackUpWordPress realiza um backup diário de seu banco de dados e um backup semanal de seu banco de dados e; arquivos. Você pode modificar esses agendamentos."
+
+#: functions/core.php:331
+msgid "BackUpWordPress has set up your default schedules."
+msgstr "O BackUpWordPress configurou seus agendamentos padrão."
+
+#: classes/class-webhook-service.php:103
+msgid "Error: %s"
+msgstr "Erro: %s"
+
+#. Plugin Name of the plugin
+#: classes/class-setup.php:31
+msgid "BackUpWordPress"
+msgstr "BackUpWordPress"
+
+#: classes/class-services.php:115 classes/deprecated.php:81
+msgid "Argument 1 for %s must be a valid class"
+msgstr "Argumento 1 de %s deve ser uma classe válida"
+
+#: classes/class-services.php:97
+msgid "Argument 1 for %s must be a registered service"
+msgstr "Argumento 1 de %s deve ser um serviço registrado"
+
+#: classes/class-services.php:81
+msgid "Argument 1 for %s must be a valid filepath"
+msgstr "Argumento 1 de %s deve ser um caminho de arquivo válido"
+
+#: classes/class-scheduled-backup.php:625
+msgid "That backup wasn't created by this schedule"
+msgstr "Esse backup não foi criado por este agendamento"
+
+#: classes/class-scheduled-backup.php:620
+msgid "%s doesn't exist"
+msgstr "%s não existe"
+
+#: classes/class-scheduled-backup.php:615
+msgid "Argument 1 for %s must be a non-empty string"
+msgstr "O argumento 1 de %s não pode ser estar vazio"
+
+#: classes/class-scheduled-backup.php:554
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s hora"
+msgstr[1] "%s horas"
+
+#. translators: min=minute
+#: classes/class-scheduled-backup.php:544
+msgid "%s min"
+msgid_plural "%s mins"
+msgstr[0] "%s min"
+msgstr[1] "%s mins"
+
+#: classes/class-scheduled-backup.php:321
+msgid "Argument 1 for %s must be a valid cron recurrence or \"manually\""
+msgstr "O argumento 1 de %s deve ser uma recorrência cron válida ou \"manualmente\""
+
+#: classes/class-plugin.php:247
+msgid "Reducing the number of backups that are stored on this server will cause some of your existing backups to be deleted. Are you sure that's what you want?"
+msgstr "Reduzindo o número de backups que serão armazenados neste servidor causará a eliminação de alguns backups já existentes. Você tem certeza que é isso que você quer?"
+
+#: classes/class-plugin.php:246
+msgid "Are you sure you want to remove this exclude rule?"
+msgstr "Você tem certeza de que deseja remover esta regra de exclusão?"
+
+#: classes/class-plugin.php:245
+msgid "Are you sure you want to delete this backup?"
+msgstr "Você tem certeza que quer apagar este backup?"
+
+#: classes/class-plugin.php:244 classes/class-plugin.php:245
+#: classes/class-plugin.php:246 classes/class-plugin.php:247
+msgid "'Cancel' to go back, 'OK' to delete."
+msgstr "'Cancelar' para voltar, 'OK' para apagar."
+
+#: classes/class-plugin.php:244
+msgid "Are you sure you want to delete this schedule? All of its backups will also be deleted."
+msgstr "Você tem certeza de que quer apagar este agendamento? Todos os backups já realizados nesta programação também serão excluídos."
+
+#: classes/class-plugin.php:243
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: classes/class-plugin.php:242
+msgid "Update"
+msgstr "Atualizar"
+
+#: classes/class-path.php:355
+msgid "This %s file ensures that other people cannot download your backup files."
+msgstr "Este arquivo %s garante que nenhuma outra pessoa consiga fazer o download dos seus arquivos de backup."
+
+#: classes/class-email-service.php:201
+msgid "Unfortunately, the backup file was too large to attach to this email."
+msgstr "Infelizmente, o arquivo de backup era grande demais para ser anexado a este email."
+
+#: classes/class-email-service.php:192 classes/class-email-service.php:201
+msgid ""
+"Kind Regards,\n"
+"The Happy BackUpWordPress Backup Emailing Robot"
+msgstr ""
+"Atenciosamente,\n"
+"O Robô Feliz Entregador de Backups do BackUpWordPress"
+
+#: classes/class-email-service.php:192 classes/class-email-service.php:201
+msgid "You can download the backup file by clicking the link below:"
+msgstr "Você pode realizar o download do arquivo de backup clicando no link abaixo:"
+
+#: classes/class-email-service.php:192
+msgid "The backup file should be attached to this email."
+msgstr "O arquivo de backup será anexado neste email."
+
+#: classes/class-email-service.php:192 classes/class-email-service.php:201
+msgid "BackUpWordPress has completed a backup of your site %1$s."
+msgstr "O BackUpWordPress concluiu um backup do seu site %1$s."
+
+#: classes/class-email-service.php:187
+msgid "Backup of %s"
+msgstr "Backup de %s"
+
+#: classes/class-email-service.php:179
+msgid ""
+"Kind Regards,\n"
+"The Apologetic BackUpWordPress Backup Emailing Robot"
+msgstr ""
+"Atenciosamente, \n"
+"O Apologético Robô Carteiro do BackUpWordPress"
+
+#: classes/class-email-service.php:179
+msgid "Here are the errors that we've encountered:"
+msgstr "Aqui estão os erros que encontramos:"
+
+#: classes/class-email-service.php:179
+msgid "BackUpWordPress was unable to backup your site %1$s."
+msgstr "O BackUpWordPress não foi capaz de realizar o backup do seu site %1$s."
+
+#: classes/class-webhook-service.php:59 classes/class-email-service.php:177
+msgid "Backup of %s Failed"
+msgstr "Backup de %s Falhou"
+
+#: classes/class-email-service.php:122
+msgid "%s isn't a valid email"
+msgstr "%s não é um email válido"
+
+#: classes/class-email-service.php:86
+msgid "Send an email notification to %s"
+msgstr "<br /> Enviar uma notificação por email para %s"
+
+#: classes/class-email-service.php:67
+msgid "The maximum filesize of your backup that will be attached to your notification emails . Defaults to %s."
+msgstr "O tamanho máximo do seu backup que será anexado aos e-mails de notificação. O padrão é %s."
+
+#: classes/class-email-service.php:36
+msgid "Receive a notification email when a backup completes. If the backup is small enough (&lt; %s), then it will be attached to the email. Separate multiple email addresses with a comma."
+msgstr "Receba uma notificação por e-mail quando o backup for concluído. Se o backup for pequeno o suficiente (&lt; %s), então será enviado como um anexo no e-mail. Separe múltiplos e-mails com vírgulas."
+
+#: classes/class-email-service.php:30
+msgid "Email notification"
+msgstr "Notificação por email"
+
+#: classes/class-backupwordpress-wp-cli-command.php:98
+msgid "Backup Failed"
+msgstr "Falha no Backup"
+
+#: classes/class-backupwordpress-wp-cli-command.php:96
+msgid "Backup Complete: "
+msgstr "Backup concluído: "
+
+#: classes/class-backupwordpress-wp-cli-command.php:69
+msgid "Invalid root path"
+msgstr "Caminho do diretório raiz inválido"
+
+#: classes/class-backupwordpress-wp-cli-command.php:64
+msgid "Invalid backup path"
+msgstr "Caminho de backup inválido"
+
+#: classes/class-backupwordpress-wp-cli-command.php:50
+msgid "Backup: Zipping everything up..."
+msgstr "Backup: Compactando tudo..."
+
+#: classes/class-backupwordpress-wp-cli-command.php:46
+msgid "Backup: Dumping database..."
+msgstr "Backup: Realizando o DUMP do banco de dados..."
+
+#: backdrop/task.php:41
+msgid "Task is not scheduled to run"
+msgstr "Tarefa não está programada para ser executada"
+
+#: backdrop/task.php:22
+msgid "Task is already scheduled to run"
+msgstr "Tarefa já está programada para ser executada"
+
+#: backdrop/server.php:11
+msgid "Supplied key was not valid"
+msgstr "Chave fornecida não era válida"
+
+#: backdrop/server.php:6
+msgid "No key supplied"
+msgstr "Nenhuma chave fornecida"
+
+#: admin/schedule-settings.php:34 functions/interface.php:47
+msgid "Delete"
+msgstr "Excluir"
+
+#: admin/schedule-settings.php:21
+msgid "Excludes"
+msgstr "Exclusões"
+
+#: admin/schedule-settings.php:11
+msgid "Run now"
+msgstr "Executar agora"
+
+#: admin/schedule-sentence.php:160
+msgid "Backups will be compressed and should be smaller than this."
+msgstr "Os backups serão compactados e ficarão menores que isso."
+
+#: admin/schedule-sentence.php:127
+msgid "Send a copy of each backup to %s."
+msgstr "Enviar uma copia de cada backup para %s."
+
+#: admin/schedule-sentence.php:120
+msgctxt "1: Backup Type 2: Total size of backup 3: Schedule 4: Number of backups to store"
+msgid "Backup my %1$s %2$s %3$s, %4$s."
+msgstr "Copiar meu %1$s %2$s %3$s, %4$s."
+
+#: admin/schedule-sentence.php:95
+msgid "store the last %1$s backups in %2$s"
+msgstr "manter os ultimos %1$s backups em %2$s"
+
+#: admin/schedule-sentence.php:89
+msgid "don't store any backups in on this server"
+msgstr "não manter nenhum backup neste servidor"
+
+#: admin/schedule-sentence.php:83
+msgid "store the most recent backup in %s"
+msgstr "manter o backup mais recente em %s"
+
+#: admin/schedule-sentence.php:65 admin/schedule-sentence.php:71
+msgid "manually"
+msgstr "manualmente"
+
+#: admin/schedule-sentence.php:59
+msgid "on the %1$s of each month at %2$s"
+msgstr "no %1$s de cada mês às %2$s"
+
+#: admin/schedule-sentence.php:47
+msgid "weekly on %1$s at %2$s"
+msgstr "semanalmente no(a) %1$s às %2$s"
+
+#: admin/schedule-sentence.php:41
+msgid "every 12 hours at %1$s &amp; %2$s"
+msgstr "a cada 12 horas às %1$s e %2$s"
+
+#: admin/schedule-sentence.php:30
+msgid "daily at %s"
+msgstr "diariamente às %s"
+
+#: admin/schedule-sentence.php:24
+msgid "hourly at %s minutes past the hour"
+msgstr "de hora em hora, passado %s minutos de cada hora"
+
+#: admin/schedule-sentence.php:24
+msgid "hourly on the hour"
+msgstr "de hora em hora"
+
+#: admin/schedule-sentence.php:14
+msgid "The next backup will be on %1$s at %2$s %3$s"
+msgstr "O próximo backup será em %1$s às %2$s %3$s"
+
+#: admin/schedule-form.php:187
+msgid "This schedule will store a maximum of %s of backups."
+msgstr "Este agendamento irá manter no máximo um total de %s em backups."
+
+#: admin/schedule-form.php:180
+msgid "Past this limit older backups will be deleted automatically."
+msgstr "Passado este limite, os backups mais antigos serão excluídos automaticamente."
+
+#: admin/schedule-form.php:171
+msgid "Number of backups to store on this server"
+msgstr "Número de backups para armazenar"
+
+#: admin/schedule-form.php:161
+msgid "The second backup will run 12 hours after the first."
+msgstr "O segundo backup será iniciado 12 horas após o primeiro."
+
+#: admin/schedule-form.php:155
+msgid "Minutes"
+msgstr "Minutos"
+
+#: admin/schedule-form.php:151
+msgid "Hours"
+msgstr "Horas"
+
+#: admin/schedule-form.php:142
+msgid "Start Time"
+msgstr "Hora de início"
+
+#: admin/schedule-form.php:130
+msgid "Start Day of Month"
+msgstr "Dia Inicial do Mês"
+
+#: admin/schedule-form.php:112
+msgid "Sunday"
+msgstr "Domingo"
+
+#: admin/schedule-form.php:111
+msgid "Saturday"
+msgstr "Sábado"
+
+#: admin/schedule-form.php:110
+msgid "Friday"
+msgstr "Sexta-feira"
+
+#: admin/schedule-form.php:109
+msgid "Thursday"
+msgstr "Quinta-feira"
+
+#: admin/schedule-form.php:108
+msgid "Wednesday"
+msgstr "Quarta-feira"
+
+#: admin/schedule-form.php:107
+msgid "Tuesday"
+msgstr "Terça-feira"
+
+#: admin/schedule-form.php:106
+msgid "Monday"
+msgstr "Segunda-feira"
+
+#: admin/schedule-form.php:98
+msgid "Start Day"
+msgstr "Dia Inicial"
+
+#: admin/schedule-form.php:71
+msgid "Manual Only"
+msgstr "Apenas Manualmente"
+
+#: admin/schedule-form.php:64
+msgid "Schedule"
+msgstr "Intervalo"
+
+#: admin/schedule-form.php:53
+msgid "Database only"
+msgstr "Apenas o banco de dados"
+
+#: admin/schedule-form.php:51
+msgid "Files only"
+msgstr "Apenas os arquivos"
+
+#: admin/schedule-form.php:49
+msgid "Both Database &amp; files"
+msgstr "Banco de dados e arquivos"
+
+#: admin/schedule-form.php:42
+msgid "Backup"
+msgstr "Backup"
+
+#: admin/schedule-settings.php:15 admin/schedule-form.php:7
+msgid "Settings"
+msgstr "Configurações"
+
+#: admin/schedule-form-excludes.php:422 admin/schedule-settings.php:89
+#: admin/schedule-form.php:204
+msgid "Done"
+msgstr "Pronto"
+
+#: admin/schedule-form-excludes.php:395
+msgid "Exclude &rarr;"
+msgstr "Excluir &rarr;"
+
+#: admin/schedule-form-excludes.php:373
+msgid "Excluded"
+msgstr "Excluído"
+
+#: admin/schedule-form-excludes.php:368
+msgid "Unreadable"
+msgstr "Ilegível"
+
+#: admin/schedule-form-excludes.php:367
+msgid "Unreadable files won't be backed up."
+msgstr "Não será feito o backup de arquivos ilegíveis."
+
+#: admin/schedule-form-excludes.php:358
+msgid "File"
+msgstr "Arquivos"
+
+#: admin/schedule-form-excludes.php:210 admin/schedule-form-excludes.php:356
+msgid "Folder"
+msgstr "Pasta"
+
+#: admin/schedule-form-excludes.php:208 admin/schedule-form-excludes.php:353
+msgid "Symlink"
+msgstr "Symlink"
+
+#: admin/schedule-form-excludes.php:193
+msgid "Refresh"
+msgstr "Atualizar"
+
+#: admin/schedule-form-excludes.php:125
+msgid "Status"
+msgstr "Situação"
+
+#: admin/schedule-form-excludes.php:123
+msgid "Permissions"
+msgstr "Permissões"
+
+#: admin/schedule-form-excludes.php:121
+msgid "Name"
+msgstr "Nome"
+
+#: admin/schedule-form-excludes.php:87
+msgid "Here's a directory listing of all files on your site, you can browse through and exclude files or folders that you don't want included in your backup."
+msgstr "Aqui está uma lista de pastas de todos os arquivos em seu site, você pode navegar através e excluir arquivos ou pastas que você não deseja incluir no backup."
+
+#: admin/schedule-form-excludes.php:67
+msgid "Stop excluding"
+msgstr "Parar exclusão"
+
+#: admin/schedule-form-excludes.php:55
+msgid "Default rule"
+msgstr "Regra padrão"
+
+#: admin/schedule-form-excludes.php:11
+msgid "Currently Excluded"
+msgstr "Excluídos Atualmente"
+
+#: admin/upsell.php:7
+msgid "If you're finding BackUpWordPress useful, please %1$s rate it on the plugin directory%2$s."
+msgstr "Se você acha BackUpWordPress útil, por favor %1$s envie sua avaliação no diretório de plugins %2$s."
+
+#: admin/menu.php:134
+msgid "Help with translation"
+msgstr "Ajude a traduzir"
+
+#: admin/menu.php:134
+msgid "Support Forums"
+msgstr "Fóruns de suporte"
+
+#: admin/menu.php:134
+msgid "For more information:"
+msgstr "Para mais informações:"
+
+#: admin/menu.php:127
+msgid "Server Info"
+msgstr "Informações do servidor"
+
+#: admin/menu.php:108
+msgid "FAQ"
+msgstr "FAQ"
+
+#: admin/menu.php:12 admin/menu.php:14 admin/menu.php:77
+msgid "Backups"
+msgstr "Backups"
+
+#: admin/menu.php:14
+msgid "Manage Backups"
+msgstr "Gerenciar Backups"
+
+#: admin/faq.php:56
+msgid "My backups seem to be failing?"
+msgstr "Meus backups parecem estar falhando?"
+
+#: admin/faq.php:54
+msgid "The script to be entered into the Heart Internet cPanel is: <code>/usr/bin/php5 /home/sites/yourdomain.com/public_html/wp-cron.php</code> (note the space between php5 and the location of the file). The file <code>wp-cron.php</code> <code>chmod</code> must be set to <code>711</code>."
+msgstr "O script a ser inserido no Heart Internet cPanel é: <code>/usr/bin/php5 /home/sites/yourdomain.com/public_html/wp-cron.php</code> (note o espaço entre php5 e o local do arquivo). O arquivo <code> wp-cron.php </ code> <code> chmod </ code> deve ser definido como <code> 711 </ code>."
+
+#: admin/faq.php:52
+msgid "How to get BackUpWordPress working in Heart Internet"
+msgstr "Como fazer BackUpWordPress funcionar em Heart Internet"
+
+#: admin/faq.php:48
+msgid "Is your site private (i.e. is it behind some kind of authentication, maintenance plugin, .htaccess)? If so, wp-cron won't work until you remove it. If you are and you temporarily remove the authentication, do backups start working?"
+msgstr "O seu site é privado (ex: está por trás de algum tipo de autenticação, plugin de manutenção, .htaccess)? Em caso afirmativo, o wp-cron não funcionará até que você remova esta limitação de acesso. Se você remover temporariamente a autenticação, os backups passam a funcionar?"
+
+#: admin/faq.php:46
+msgid "Try adding <code>define( 'ALTERNATE_WP_CRON', true );</code> to your <code>wp-config.php</code>. Do automatic backups work?"
+msgstr "Tente adicionar <code>define( 'ALTERNATE_WP_CRON', true );</code> ao seu <code>wp-config.php</code>. Os backups automáticos funcionam?"
+
+#: admin/faq.php:44
+msgid "If you click manual backup, does it work?"
+msgstr "Se você clicar no backup manual, ele funciona?"
+
+#: admin/faq.php:42
+msgid "Are you hosted on Heart Internet? (wp-cron may not be supported by Heart Internet, see below for work-around.)"
+msgstr "Você está hospedado no Heart Internet? (O wp-cron pode não ser suportadas pelo Heart Internet, veja abaixo uma solução alternativa)."
+
+#: admin/faq.php:40
+msgid "Are scheduled posts working? (They use wp-cron as well.)"
+msgstr "Os posts agendados estão funcinando? (Eles usam o wp-cron também)."
+
+#: admin/faq.php:38
+msgid "There are some things you can test to confirm this is the issue."
+msgstr "Há algumas coisas que você pode testar para confirmar se esta é a questão."
+
+#: admin/faq.php:36
+msgid "The issue is that your <code>wp-cron.php</code> is not returning a <code>200</code> response when hit with a HTTP request originating from your own server, it could be several things. In most cases, it's an issue with the server / site."
+msgstr "O problema é que seu <code>wp-cron.php</code> não está retornando uma resposta <code>200</code> quando recebe uma solicitação HTTP proveniente de seu próprio servidor. Isso pode significar várias coisas e, na maioria dos casos, é um problema com o servidor / site."
+
+#: admin/faq.php:34
+msgid "What do I do if I get the wp-cron error message?"
+msgstr "O que eu faço se eu receber a mensagem de erro do wp-cron?"
+
+#: admin/faq.php:32
+msgid "Unless your site is very large (many gigabytes) it should only take a few minutes to perform a backup. If your back up has been running for longer than an hour, it's safe to assume that something has gone wrong. Try de-activating and re-activating the plugin. If it keeps happening, contact support."
+msgstr "A menos que seu site seja muito grande (muitos gigabytes) deve levar apenas alguns minutos para realizar um backup, se o seu backup está em execução há mais de uma hora, é seguro assumir que algo deu errado. Tente desativar e reativar o plugin, Se continuar acontecendo, contate o suporte."
+
+#: admin/faq.php:30
+msgid "How long should a backup take?"
+msgstr "Quanto tempo deve demorar um backup?"
+
+#: admin/faq.php:28
+msgid "BackUpWordPress stores the last 10 backups by default."
+msgstr "BackUpWordPress mantém os últimos 10 backups por padrão."
+
+#: admin/faq.php:26
+msgid "How many backups are stored by default?"
+msgstr "Quantos backups são mantidos por padrão?"
+
+#: admin/faq.php:24
+msgid "Most servers have a filesize limit on email attachments, it's generally about 10mb. If your backup file is over that limit, it won't be sent attached to the email. Instead, you should receive an email with a link to download the backup. If you aren't even receiving that, then you likely have a mail issue on your server that you'll need to contact your host about."
+msgstr "A maioria dos servidores tem um limite de tamanho para anexos de email, isso geralmente é cerca de 10MB. Se o seu backup está acima desse limite, então não poderá ser anexado ao email, no entanto você deverá receber em seu email um link para baixar o backup. Se isso não está acontecendo, então você deve estar com algum problema no servidor de email e precisa contatar o suporte do seu provedor para resolver isso."
+
+#: admin/faq.php:22
+msgid "I'm not receiving my backups by email"
+msgstr "Não estou recebendo meus backups por email"
+
+#: admin/faq.php:20
+msgid "No."
+msgstr "Não."
+
+#: admin/faq.php:18
+msgid "Does BackUpWordPress back up the backups directory?"
+msgstr "O BackUpWordPress faz uma copia dos diretórios de backups?"
+
+#: admin/faq.php:16
+msgid "See this guide for more details - <a href=\"https://bwp.hmn.md/support-center/restore-backup/\" title=\"Go to support center\" target=\"_blank\">How to restore from backup</a>."
+msgstr "Veja este guia para mais detalhes - <a href=\"https://bwp.hmn.md/support-center/restore-backup/\" title=\"Ir para o centro de suporte\" target=\"_blank\">Como recuperar meu site usando backups</a>."
+
+#: admin/faq.php:14
+msgid "You need to download the latest backup file either by clicking download on the backups page or via <code>FTP</code>. <code>Unzip</code> the files and upload all the files to your server overwriting your site. You can then import the database using your hosts database management tool (likely <code>phpMyAdmin</code>)."
+msgstr "Você precisa fazer o download do arquivo mais recente de backup clicando em <b>download</b> na página de backups ou via <code>FTP</code>. <code>Descompactar</code> os arquivos e fazer upload de todos os arquivos para o seu servidor substituindo os antigos. Você pode importar o banco de dados usando a ferramenta de gerenciamento de banco de dados (por exemplo <code>phpMyAdmin</code>)."
+
+#: admin/faq.php:12
+msgid "How do I restore my site from a backup?"
+msgstr "Como eu recupero meu site usando um backup?"
+
+#: admin/faq.php:8
+msgid "What if I want to back up my site to another destination?"
+msgstr "E se eu quiser fazer o backup do meu site para outro destino?"
+
+#: admin/faq.php:6
+msgid "Important: By default BackUpWordPress backs up everything in your site root as well as your database, this includes any non WordPress folders that happen to be in your site root. This does mean that your backup directory can get quite large."
+msgstr "Importante: Por padrão BackUpWordPress faz o backup de tudo na raiz do seu site, bem como o seu banco de dados, o que inclui todas as pastas não WordPress que estejam na raiz do site. Isso significa que o seu diretório de backup pode ficar muito grande."
+
+#: admin/faq.php:4
+msgid "Backups are stored on your server in <code>/wp-content/backups</code>, you can change the directory."
+msgstr "Backups são armazenados no seu servidor em <code> / wp-content / backups </ code>, você pode alterar o diretório."
+
+#: admin/faq.php:2
+msgid "Where does BackUpWordPress store the backup files?"
+msgstr "Onde é que BackUpWordPress armazenar os arquivos de backup?"
+
+#: admin/enable-support.php:61
+msgid "Yes, I want to enable support"
+msgstr "Sim, eu quero habilitar o suporte"
+
+#: admin/enable-support.php:60
+msgid "No, thanks"
+msgstr "Não, obrigado"
+
+#: admin/enable-support.php:58
+msgid "You can disable support in the future by deactivating BackUpWordPress."
+msgstr "Você pode desativar o suporte no futuro desativando o BackUpWordPress."
+
+#: admin/enable-support.php:5
+msgid "BackUpWordPress uses %s to provide support. In addition to allowing you to send and receive messages we also send the following server information along with your requests:"
+msgstr "BackUpWordPress usa %s para fornecer suporte. Além de permitir que você envie e receba mensagens nós também enviamos as seguintes informações do servidor, juntamente com os seus pedidos:"
+
+#: admin/enable-support.php:3
+msgid "Enable BackUpWordPress Support"
+msgstr "Ativar Suporte do BackUpWordPress"
+
+#: admin/constants.php:119
+msgid "The time that your schedules should run. Defaults to %s."
+msgstr "O horário em que seus agendamentos devem ser executados. O padrão é %s."
+
+#: admin/constants.php:103
+msgid "The root directory that is backed up. Defaults to %s."
+msgstr "O diretório raiz onde será realizado o backup. O padrão é %s."
+
+#: admin/constants.php:87
+msgid "The capability to use when calling %1$s. Defaults to %2$s."
+msgstr "A capacidade que o usuário deve ter ao solicitar %1$s. O padrão é %2$s."
+
+#: admin/constants.php:71
+msgid "Comma separated list of files or directories to exclude, the backups directory is automatically excluded."
+msgstr "Lista de arquivos ou diretórios (separados por vírgula) que devem ser excluídos do backup. O diretório de backups é automaticamente excluído."
+
+#: admin/constants.php:55
+msgid "files"
+msgstr "arquivos"
+
+#: admin/constants.php:55
+msgid "The path to your %1$s executable. Will be used to zip up your %2$s and %3$s if available."
+msgstr "O caminho para executar a função %1$s. Será usado para compactar seus %2$s e %3$s, se disponível."
+
+#: admin/constants.php:39 admin/constants.php:55
+msgid "database"
+msgstr "banco de dados"
+
+#: admin/constants.php:39
+msgid "The path to your %1$s executable. Will be used for the %2$s part of the back up if available."
+msgstr "O caminho para executar o comando %1$s. Será usado para parte do backup do seu %2$s, se disponível."
+
+#: admin/constants.php:23 admin/constants.php:39 admin/constants.php:55
+#: admin/constants.php:71 admin/constants.php:87 admin/constants.php:103
+#: admin/constants.php:119 classes/class-email-service.php:67
+msgid "e.g."
+msgstr "ex:"
+
+#: admin/constants.php:23
+msgid "The path to the folder you would like to store your backup files in, defaults to %s."
+msgstr "O caminho da pasta na qual você gostaria de armazenar seus arquivos de backup, o padrão é %s."
+
+#: admin/constants.php:20 admin/constants.php:36 admin/constants.php:52
+#: admin/constants.php:68 admin/constants.php:84 admin/constants.php:100
+#: admin/constants.php:116 classes/class-email-service.php:64
+msgid "You've set it to: %s"
+msgstr "Você configurou isso para: %s"
+
+#: admin/constants.php:9
+msgid "The Codex can help"
+msgstr "O Codex pode ajudar"
+
+#: admin/menu.php:114 admin/constants.php:9
+msgid "Constants"
+msgstr "Constantes"
+
+#: admin/constants.php:9
+msgid "You can %1$s any of the following %2$s in your %3$s to control advanced settings. %4$s. Defined %5$s will be highlighted."
+msgstr "Você pode %1$s qualquer uma das seguintes %2$s em seu arquivo %3$s para controlar certas definições avançadas. %4$s. As %5$s que estiverem personalizadas aparecerão abaixo destacadas."
+
+#: admin/backups.php:26
+msgid "add schedule"
+msgstr "agendar novo backup"
+
+#: admin/backups-table.php:41
+msgid "This is where your backups will appear once you have some."
+msgstr "Aqui será onde os seus backups irão aparecer assim que você tiver algum."
+
+#: admin/backups-table.php:16
+msgid "Actions"
+msgstr "Ações"
+
+#: admin/schedule-form-excludes.php:124 admin/backups-table.php:15
+msgid "Type"
+msgstr "Tipo"
+
+#: admin/backups-table.php:14
+msgid "Size"
+msgstr "Tamanho"
+
+#: admin/actions.php:682
+msgid "%1$s is returning a %2$s response which could mean cron jobs aren't getting fired properly. BackUpWordPress relies on wp-cron to run scheduled backups. See the %3$s for more details."
+msgstr "%1$s está retornando um %2$s resposta que pode significar que \\\"cron jobs\\\" não estão sendo devidamente processados. BackUpWordPress baseia-se no wp-cron para executar backups agendados. Veja o %3$s para mais detalhes."
+
+#: admin/actions.php:682 admin/actions.php:688
+msgid "BackUpWordPress has detected a problem."
+msgstr "O BackUpWordPress detectou um problema."
+
+#: admin/actions.php:378
+msgid "Max backups must be greater than 0"
+msgstr "A quant. de backups precisa ser maior que 0"
+
+#: admin/actions.php:376
+msgid "Max backups must be a number"
+msgstr "A quant. de backups precisa ser um número"
+
+#: admin/actions.php:374
+msgid "Max backups can't be empty"
+msgstr "A quant. de backups não pode ficar vazia"
+
+#: admin/actions.php:363
+msgid "Minutes must be between 0 and 59"
+msgstr "Os minutos devem ser entre 0 e 59"
+
+#: admin/actions.php:347
+msgid "Hours must be between 0 and 23"
+msgstr "As horas devem ser entre 0 e 23"
+
+#: admin/actions.php:331
+msgid "Day of month must be between 1 and 31"
+msgstr "O dia do mês deve ser entre 1 e 31"
+
+#: admin/actions.php:315
+msgid "Day of the week must be a valid, lowercase day name"
+msgstr "O dia da semana deve ser um nome válido em letras minúsculas"
+
+#: admin/actions.php:304
+msgid "Invalid schedule"
+msgstr "Agendamento inválido"
+
+#: admin/actions.php:302
+msgid "Schedule cannot be empty"
+msgstr "O intervalo não pode ficar vazio"
+
+#: admin/actions.php:291
+msgid "Invalid backup type"
+msgstr "Tipo de backup inválido"
+
+#: admin/actions.php:289
+msgid "Backup type cannot be empty"
+msgstr "O tipo de backup não pode ficar vazio"
+
+#: admin/actions.php:234
+msgid "The schedule ID was not provided. Aborting."
+msgstr "O ID de agendamento não foi fornecido. Cancelando..."

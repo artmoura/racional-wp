@@ -1,0 +1,33 @@
+/*--- SCROLL TOP ---*/
+.scroll-top{
+    float: right;
+    width: 90px;
+    height: 11px;
+}
+
+#back-top {
+    width: 90px;
+    height: 11px;
+    margin: 3px 0;
+}
+
+#back-top a {
+    float: right;
+    width: 90px;
+    height: 11px;
+    position: relative;
+    color: #dadbd5;
+    font-size: 11px;
+    font-family: 'LatoBold';
+    text-transform: uppercase;
+}
+
+#back-top span {
+    float: right;
+    width: 8px;
+    height: 11px;
+    display: block;
+    background: url(img/scroll-top.png) no-repeat top right;
+    margin: -1px 0 0 0;
+}
+
