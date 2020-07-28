@@ -18,16 +18,16 @@
 /** O nome do banco de dados do WordPress */
 define('WP_CACHE', true); //Added by WP-Cache Manager
 define( 'WPCACHEHOME', '/home/camilo/racionalconsultoria.com.br/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
-define('DB_NAME', 'racionalcons');
+define('DB_NAME', 'qspiq9g9a0qc0uba');
 
 /** Usuário do banco de dados MySQL */
-define('DB_USER', 'racion');
+define('DB_USER', 'r2i7nfjurlyzs2sd');
 
 /** Senha do banco de dados MySQL */
-define('DB_PASSWORD', 'consultRJ');
+define('DB_PASSWORD', 'cc1ma9yx0xp0kcsf');
 
 /** nome do host do MySQL */
-define('DB_HOST', 'banco.racionalconsultoria.com.br');
+define('DB_HOST', 'd6q8diwwdmy5c9k9.cbetxkdyhwsb.us-east-1.rds.amazonaws.com');
 
 /* desabilitando o cron do WP */
 define('DISABLE_WP_CRON', 'true');
