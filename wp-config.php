@@ -17,7 +17,7 @@
 // ** Configurações do MySQL - Você pode pegar essas informações com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
 define('WP_CACHE', false); //Added by WP-Cache Manager
-// define( 'WPCACHEHOME', '/home/camilo/racionalconsultoria.com.br/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
+// define( 'WPCACHEHOME', '/home/camilo/racional-wp.herokuapp.com/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
 define('DB_NAME', 'qspiq9g9a0qc0uba');
 
 /** Usuário do banco de dados MySQL */
