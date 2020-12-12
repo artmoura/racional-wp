@@ -13,6 +13,7 @@
  */
 
 use Automattic\Jetpack\Constants;
+use Automattic\Jetpack\Connection\Utils as Connection_Utils;
 
 include_once JETPACK__PLUGIN_DIR . 'modules/protect/shared-functions.php';
 
@@ -24,9 +25,7 @@ class Jetpack_Protect_Module {
 	public $whitelist;
 	public $whitelist_error;
 	public $whitelist_saved;
-	private $user_ip;
 	private $local_host;
-	private $api_endpoint;
 	public $last_request;
 	public $last_response_raw;
 	public $last_response;
@@ -248,9 +247,7 @@ class Jetpack_Protect_Module {
 		}
 
 		// Request the key
-		$xml = new Jetpack_IXR_Client( array (
-			'user_id' => get_current_user_id()
-		) );
+		$xml = new Jetpack_IXR_Client();
 		$xml->query( 'jetpack.protect.requestKey', $request );
 
 		// Hmm, can't talk to wordpress.com
@@ -406,7 +403,7 @@ class Jetpack_Protect_Module {
 		);
 
 		foreach ( $ip_related_headers as $header ) {
-			if ( isset( $_SERVER[ $header ] ) ) {
+			if ( ! empty( $_SERVER[ $header ] ) ) {
 				$output[ $header ] = $_SERVER[ $header ];
 			}
 		}
@@ -724,7 +721,7 @@ class Jetpack_Protect_Module {
 		$request['host']              = $this->get_local_host();
 		$request['headers']           = json_encode( $this->get_headers() );
 		$request['jetpack_version']   = constant( 'JETPACK__VERSION' );
-		$request['wordpress_version'] = strval( $wp_version );
+		$request['wordpress_version'] = (string) $wp_version ;
 		$request['api_key']           = $api_key;
 		$request['multisite']         = "0";
 
@@ -751,7 +748,7 @@ class Jetpack_Protect_Module {
 			'timeout'     => absint( $timeout )
 		);
 
-		$response_json           = wp_remote_post( $this->get_api_host(), $args );
+		$response_json           = wp_remote_post( JETPACK_PROTECT__API_HOST, $args );
 		$this->last_response_raw = $response_json;
 
 		$transient_name = $this->get_transient_name();
@@ -859,15 +856,17 @@ class Jetpack_Protect_Module {
 		return get_transient( $transient );
 	}
 
+	/**
+	 * Get the API host.
+	 *
+	 * @return string
+	 *
+	 * @deprecated 9.1.0 Use constant `JETPACK_PROTECT__API_HOST` instead.
+	 */
 	function get_api_host() {
-		if ( isset( $this->api_endpoint ) ) {
-			return $this->api_endpoint;
-		}
+		_deprecated_function( __METHOD__, 'jetpack-9.1.0' );
 
-		//Check to see if we can use SSL
-		$this->api_endpoint = Jetpack::fix_url_for_bad_hosts( JETPACK_PROTECT__API_HOST );
-
-		return $this->api_endpoint;
+		return JETPACK_PROTECT__API_HOST;
 	}
 
 	function get_local_host() {
@@ -881,14 +880,14 @@ class Jetpack_Protect_Module {
 			$uri = network_home_url();
 		}
 
-		$uridata = parse_url( $uri );
+		$uridata = wp_parse_url( $uri );
 
 		$domain = $uridata['host'];
 
 		// If we still don't have the site_url, get it
 		if ( ! $domain ) {
 			$uri     = get_site_url( 1 );
-			$uridata = parse_url( $uri );
+			$uridata = wp_parse_url( $uri );
 			$domain  = $uridata['host'];
 		}
 

@@ -78,7 +78,7 @@ p#slogan {
 	padding: 20px 0;
 }
 
-nav {width: 65%;}
+nav {width: 90%;}
 
 nav select { display: none; }
 
@@ -147,6 +147,7 @@ nav ul li.active a, nav ul .current-menu-item a { color: #dd2c2c; }
 
 /*----------//// CONTENT \\\\-------------*/
 .content { width: 100%; margin: -191px 0 65px; }
+
 
 .content-two { width: 100%; margin: -106px 0 65px; }
 

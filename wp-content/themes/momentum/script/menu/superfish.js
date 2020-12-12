@@ -61,7 +61,6 @@
 			
 		}).each(function() {
 			var menuClasses = [c.menuClass];
-			if (sf.op.dropShadows  && !($.browser.msie && $.browser.version < 7)) menuClasses.push(c.shadowClass);
 			$(this).addClass(menuClasses.join(' '));
 		});
 	};

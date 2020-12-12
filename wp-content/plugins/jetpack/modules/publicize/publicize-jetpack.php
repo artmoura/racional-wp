@@ -1,11 +1,13 @@
 <?php
 
+use Automattic\Jetpack\Redirect;
+
 class Publicize extends Publicize_Base {
 
 	function __construct() {
 		parent::__construct();
 
-		add_filter( 'jetpack_xmlrpc_methods', array( $this, 'register_update_publicize_connections_xmlrpc_method' ) );
+		add_filter( 'jetpack_xmlrpc_unauthenticated_methods', array( $this, 'register_update_publicize_connections_xmlrpc_method' ) );
 
 		add_action( 'load-settings_page_sharing', array( $this, 'admin_page_load' ), 9 );
 
@@ -152,7 +154,7 @@ class Publicize extends Publicize_Base {
 		if ( ! empty( $connections ) ) {
 			foreach ( (array) $connections as $service_name => $connections_for_service ) {
 				foreach ( $connections_for_service as $id => $connection ) {
-					$user_id = intval( $connection['connection_data']['user_id'] );
+					$user_id = (int) $connection['connection_data']['user_id'];
 					// phpcs:ignore WordPress.PHP.YodaConditions.NotYoda
 					if ( $user_id === 0 || $this->user_id() === $user_id ) {
 						$connections_to_return[ $service_name ][ $id ] = $connection;
@@ -490,7 +492,7 @@ class Publicize extends Publicize_Base {
 			}
 			$page_info_message = sprintf(
 				__( 'Facebook supports Publicize connections to Facebook Pages, but not to Facebook Profiles. <a href="%s">Learn More about Publicize for Facebook</a>', 'jetpack' ),
-				'https://jetpack.com/support/publicize/facebook'
+				esc_url( Redirect::get_url( 'jetpack-support-publicize-facebook' ) )
 			);
 
 			if ( $pages ) : ?>
@@ -639,7 +641,7 @@ class Publicize extends Publicize_Base {
 	}
 
 	function get_basehostname( $url ) {
-		return parse_url( $url, PHP_URL_HOST );
+		return wp_parse_url( $url, PHP_URL_HOST );
 	}
 
 	function options_save_tumblr() {

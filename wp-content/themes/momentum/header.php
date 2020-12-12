@@ -113,6 +113,7 @@
         }
 ?>
 
+
                     
         <?php
 
@@ -122,6 +123,13 @@
 
 
             wp_enqueue_script('jquery');
+        ?>
+
+
+
+        <?php
+            wp_enqueue_script('jquery-migrate.min', get_template_directory_uri().'/script/jquery-migrate.min.js' );
+            wp_enqueue_script('superfish', get_template_directory_uri().'/script/menu/superfish.js' );
             wp_enqueue_script('superfish', get_template_directory_uri().'/script/menu/superfish.js' );
             wp_enqueue_script('my-commons', get_template_directory_uri().'/script/common.js' );
             wp_enqueue_script('pirobox', get_template_directory_uri().'/script/pirobox/js/pirobox.js' );
@@ -133,8 +141,6 @@
             wp_enqueue_script('scroll-button', get_template_directory_uri().'/script/scroll-button/scroll-button.js' );
             wp_enqueue_script('isotope', get_template_directory_uri().'/script/isotope/jquery.isotope.min.js' );
             wp_enqueue_script('pinterest', 'http://assets.pinterest.com/js/pinit.js' );
-            
-            if ( is_singular() ) wp_enqueue_script( 'comment-reply' );
         ?>
 
         <?php $favicon = get_theme_option(tk_theme_name.'_general_favicon'); if(empty($favicon)) { $favicon = get_template_directory_uri()."/style/img/favicon.ico"; }?>
@@ -170,7 +176,6 @@
             $nav_font_color_hover = get_theme_option(tk_theme_name.'_colors_nav_color_hover');
             $copyright = get_theme_option(tk_theme_name.'_colors_copyright_color');
             ?>
-
 
         <style type="text/css">
 
@@ -313,6 +318,8 @@
 
 
         <?php if(is_home()) { ?>
+            <div class="bg-triangl left">
+        <?php } elseif (is_page('Home')) { ?>
             <div class="bg-triangl left">
         <?php } else { ?>
                 <div class="bg-triangl-two left">
